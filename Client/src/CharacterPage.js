@@ -57,7 +57,7 @@ function CharacterPage(props) {
                         <button onClick={() => history.push('/')} className="button is-info has-3-margin">Home</button>
                         <button onClick={() => history.push('/Favorites/')} className="button is-warning has-3-margin">Favorites</button>
                         <div className="container has-text-centered">
-                            {isLoading || character === null || favorites.length === 0 ? (<Loader
+                            {isLoading || character === null ? (<Loader
                                 type="Triangle"
                                 color="#ED1A23"
                                 height={250}

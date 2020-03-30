@@ -1,0 +1,48 @@
+
+.has-10-padding{
+    padding:10%;
+}
+.has-3-padding{
+    padding:3%;
+}
+.rounded-border{
+    border-radius:25px;
+}
+.has-10-margin{
+    margin:10%;
+}
+.has-3-margin{
+    margin:3%;
+}
+.has-background-image{
+    background-image: url('./images/starryNight.jpg');
+    background-repeat: repeat;
+    height: 100%;
+}
+body{
+    font-family: 'Acme', sans-serif;
+}
+.is-big-text{
+    font-size: 5rem;
+}
+.has-text-red{
+    color:#ED1A23
+}
+ul{
+    list-style: none;
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.text-input{
+    width:20%;
+    margin-right: 3%;
+}
+.has-text-left{
+    margin-left:10%;
+}
+.full-width{
+    width:100%;
+}
